@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.set_page_config(layout='wide',page_title='India Cencus 2011')
-final_df = pd.read_csv('C:/Users/DELL/AppData/Local/Programs/Python/Python312/Data/Plotly/india_cencus.csv')
+final_df = pd.read_csv('india_cencus.csv')
 
 # final_df.rename(columns={'sex_ratio':'Sex Ratio', 'literact_rate':'Literacy Rate'})
 
